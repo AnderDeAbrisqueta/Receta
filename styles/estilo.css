@@ -10,7 +10,42 @@ body {
   width: 80%;
   margin: auto;
   box-sizing: border-box;
+  box-shadow: 10px 10px 20px black;
   padding: 40px;
+  border-radius: 20px;
 }
 
-h1{text-align: center;}
+h1 {
+  text-align: center;
+}
+
+h1,
+h2 {
+  color: rgb(73, 73, 71);
+  text-decoration: underline;
+}
+
+dt {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2vw;
+  margin: 10px;
+}
+
+#imag2 {
+  width: 50%;
+  float: right;
+  padding-right: 60px;
+  padding-top: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+  #imag2 {
+    width: 100%;
+    padding-right: 0;
+    padding-top: 0;
+  }
+  #container {
+    width: 100%;
+  }
+}
