@@ -39,11 +39,14 @@ dt {
   padding-top: 40px;
 }
 
-@media only screen and (max-width: 600px) {
+
+/******* media queris *******/
+@media only screen and (max-width: 800px) {
   #imag2 {
     width: 100%;
     padding-right: 0;
     padding-top: 0;
+    padding-bottom: 15px;
   }
   #container {
     width: 100%;
